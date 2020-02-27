@@ -1,12 +1,9 @@
+function calculate(){
+    var num1 = document.getElementById('num1').value
+    var num2 = document.getElementById('num2').value
 
-<script>
-    function calc() {
-        var x = Number (document.getElementById)("first").value;
-        var y = Number (document.getElementById)("second").value;
-        var z = x+y;
-        document.getElementById("result").value=z;
-        
-    }
-        
-    
-</script>
+    var answer = parseInt(num1) + parseInt(num2)
+
+    document.getElementById('answer').innerHTML = answer
+
+}

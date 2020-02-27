@@ -1,7 +1,15 @@
-body{
-    background-color: cadetblue;
-    padding:10px;
-    font-size: 40px;
-    border-radius: 10px;
-    border: darkblue;
+form{
+    display: inline;
 }
+
+#answer{
+    margin-left: 10px;
+}
+
+input[type="text"]{
+    text-align: center;
+    width: 45px;
+    
+    
+}
+

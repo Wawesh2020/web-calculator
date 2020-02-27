@@ -1,24 +1,19 @@
 <html>
-    <head>
-        <link rel="stylesheet" type="text/css" href="style.css">
-        <titile>Web calculator</titile>
+<head>
+    <link rel="stylesheet" href="./style.css" />
+   <script src="./script.js"></script>
 
-        
-    </head>
+</head>
+<body>
+    <h1>Web Calculator</h1>
+   <form>
+       <input type="text" id="num1" />
+       <span>+</span>
+       <input type="text" id="num2" />
+       <input type="button" value="=" onclick="calculate()" />
+   </form>
+   <span id="answer"></span>
+</body>
 
-    <body>
-           <h2>First variable</h2>
 
-             <input id="first" type="number" />
-
-          <h2>Second variable</h2>  
-          
-          <input id="second" type="number" />
-        <h2>Result</h2>  
-             
-         <input id="result" type="number" />
-         <button onclick="calc()">Result</button> 
-
-        <script src="script.js"></script>
-    </body>
 </html>
