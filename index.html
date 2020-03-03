@@ -1,19 +1,34 @@
 <html>
-<head>
+    <head>
+    <script src="script.js"></script>
     <link rel="stylesheet" href="./style.css" />
-   <script src="./script.js"></script>
+    </head>
 
-</head>
-<body>
-    <h1>Web Calculator</h1>
-   <form>
-       <input type="text" id="num1" />
-       <span>+</span>
-       <input type="text" id="num2" />
-       <input type="button" value="=" onclick="calculate()" />
-   </form>
-   <span id="answer"></span>
-</body>
+    <body>
+        <h1>Web calculator</h1>
 
+            <h2>Number1</h2>
+
+        <input type="text" id="num1" /><br/><br/>
+              
+             <h3>Number2</h3>
+             
+        <input type="text" id="num2" /><br/><br/>
+
+        <select id="operators">
+            <option value="+">+</option>
+            <option value="-">-</option>
+            <option value="*">*</option>
+            <option value="/">/</option>
+        </select>
+
+        <button onclick="calculate();">=</button>
+        <input type="text" id="answer" />
+
+
+    </body>
 
 </html>
+
+
+

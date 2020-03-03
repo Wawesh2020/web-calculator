@@ -1,9 +1,36 @@
 function calculate(){
-    var num1 = document.getElementById('num1').value
-    var num2 = document.getElementById('num2').value
+    var num1 = parseInt(document.getElementById('num1').value);
+    var num2 = parseInt(document.getElementById('num2').value);
+    var oper = document.getElementById('operators').value;
 
-    var answer = parseInt(num1) * parseInt(num2)
+    if(oper === '+'){
+        document.getElementById('answer').value = num1 + num2
 
-    document.getElementById('answer').innerHTML = answer
+        
+    }
+
+    if(oper === '-'){
+        document.getElementById('answer').value = num1 - num2
+        
+
+        
+    }
+
+    if(oper === '*'){
+        document.getElementById('answer').value = num1 * num2
+
+        
+    }
+
+    if(oper === '/'){
+        document.getElementById('answer').value = num1 / num2
+
+        
+    }
+
+
+
+
+    
 
 }
